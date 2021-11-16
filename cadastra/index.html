@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Envie informacoes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/checkout/">
+    <link rel="stylesheet" href="../dashboard/">
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="form-validation.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+    <div class="container">
+    
+    <img class="d-block mx-auto mb-4" src="Captura de Tela (22).png" alt=""  >
+    
+
+  <div class="row">
+
+    <div class="col-md-8 order-md-1">
+      <h4 class="mb-3">Relatório da água</h4>
+
+      <form class="needs-validation" method="" action="" name="recebedados">
+       
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="idBairro">Bairro</label>
+            <input type="text" class="form-control" id="idBairro" placeholder="Informe seu bairro"  >
+            <div class="invalid-feedback">
+             Bairro invalido
+            </div>
+          </div>
+
+
+          <div class="col-md-6 mb-3">
+            <label for="idHidro">Hidrômetro</label>
+            <input type="number" class="form-control" id="idHidro" placeholder="Digite o valor do seu hidrômetro" required>
+            <div class="invalid-feedback">
+              hidrômetro invalido
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3">Data do relatório</label>
+          <div class="input-group">
+            <input type="date" class="form-control" id="idData"  required>
+            <div class="invalid-feedback" style="width: 100%;">
+             Data invalido
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="rua">Rua </label>
+          <input type="text" class="form-control" id="idRua" placeholder="Informe a rua onde vive" >
+
+        </div>
+
+
+
+        <hr class="mb-4">
+
+        <h4 class="mb-3">Qualidade da minha Água</h4>
+
+        <div class="d-block my-3" id="idQualidade">
+          <div class="custom-control custom-radio">
+            <input id="idOtima" name="paymentMethod" type="radio"  >
+            <label  for="idOtima">Otima</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input id="idReg" name="paymentMethod" type="radio"  required>
+            <label  for="idReg">Regular</label>
+          </div>
+
+          <div class="custom-control custom-radio">
+            <input id="idHorri" name="paymentMethod" type="radio"  required>
+            <label  for="idHorri">Ruim</label>
+          </div>
+
+        </div>
+      
+
+        <hr class="mb-4">
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Enviar Relatório</button>
+        <input class="btn btn-outline-dark  btn-lg btn-block"  type="reset" name="" id="idLimpar" value="Limpar Dados">
+      </form>
+    </div>
+  </div>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy;  QUAD</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
+  </footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="form-validation.js"></script></body>
+</html>
